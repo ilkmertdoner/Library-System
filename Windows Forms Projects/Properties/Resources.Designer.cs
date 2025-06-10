@@ -63,6 +63,26 @@ namespace Windows_Forms_Projects.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        public static System.Drawing.Bitmap iconBack {
+            get {
+                object obj = ResourceManager.GetObject("iconBack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        public static System.Drawing.Bitmap iconEmail {
+            get {
+                object obj = ResourceManager.GetObject("iconEmail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         public static System.Drawing.Bitmap iconExclamation {
             get {
                 object obj = ResourceManager.GetObject("iconExclamation", resourceCulture);
@@ -106,6 +126,16 @@ namespace Windows_Forms_Projects.Properties {
         public static System.Drawing.Bitmap iconUser {
             get {
                 object obj = ResourceManager.GetObject("iconUser", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        public static System.Drawing.Bitmap SmartLibraryLogo {
+            get {
+                object obj = ResourceManager.GetObject("SmartLibraryLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
